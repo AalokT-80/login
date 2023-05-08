@@ -1,0 +1,38 @@
+.container{
+    background-color: rgb(231, 230, 241);
+    border:3px solid rgb(64, 6, 119);
+    height:auto;
+    width:auto;
+    font-size:15px;
+    margin:40px 200px;
+    padding:30px 25px;
+    line-height: 30px;
+    text-align:left;
+    border-radius: 25px;
+    white-space:normal;
+}
+.aligncenter{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textdecoration{
+    font-family:"ubuntu",cursive;
+}
+.button{
+    font-family:"ubuntu",cursive;
+    background-color: #fff;
+    text-align:center;
+    border-radius:20px;
+    margin-top:20px;
+    margin-left:380px;
+    padding:8px 8px;
+}
+.button1{
+    font-family:"ubuntu",cursive;
+    background-color: #fff;
+    text-align:center;
+    border-radius:20px;
+    margin-top:20px;
+    margin-left:300px;
+    padding:8px 8px;
+}

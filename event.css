@@ -1,0 +1,37 @@
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.textstyle{
+  font-family: 'caveat',cursive;
+  font-size: 14px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.event img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.event h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.event p {
+  font-size: 16px;
+}

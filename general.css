@@ -1,0 +1,149 @@
+*{
+    margin:-3px;
+    padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.logo img {
+    width: 35%;
+    border: 3px solid white;
+    border-radius: 60px;
+    margin: 5px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+}
+ 
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+ 
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+ 
+.nav-list li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+ 
+.nav-list li a:hover {
+    color: rgb(197, 194, 194);
+}
+ 
+.rightNav {
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+p{
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Overlock', cursive;
+    font-weight: 150;
+    font-size:small;
+    color:rgb(16, 16, 16);
+    line-height: 10px;
+}
+.firstSection{
+    height:100px;
+    margin: 25px;
+}
+.title{
+    font-family: 'Righteous', cursive;
+    margin-left:200px;
+    font-size:20px;
+}
+.container1{
+    background-color: rgb(231, 230, 241);
+    border:3px solid rgb(64, 6, 119);
+    height:300px;
+    width:800px;
+    font-size:15px;
+    margin:40px 200px;
+    padding:30px 25px;
+    line-height: 28px;
+    text-align:left;
+    border-radius: 25px;
+    white-space:normal;
+}
+.container2{
+    display:inline-block;
+    background-color: rgb(231, 230, 241);
+    border:3px solid rgb(64, 6, 119);
+    height:300px;
+    width:800px;
+    font-size:15px;
+    margin:90px 200px;
+    padding:30px 25px;
+    line-height: 26px;
+    text-align:left;
+    border-radius: 25px;
+    white-space:normal;
+}
+.container3{
+    display:inline-block;
+    background-color: rgb(231, 230, 241);
+    border:3px solid rgb(64, 6, 119);
+    height:200px;
+    width:800px;
+    font-size:15px;
+    margin:30px 200px;
+    padding:30px 25px;
+    line-height: 26px;
+    text-align:left;
+    border-radius: 25px;
+    white-space:normal;
+}
+.link2{
+    font-family: 'Castoro Titling', cursive;
+    margin:450px;
+
+    color:grey;
+    font-weight:bold;
+}
+.link1{
+    font-family: 'Castoro Titling', cursive;
+    text-align:center;
+    margin:5px;
+    color:grey;
+    font-weight:bold;
+
+}
+.sajawat{
+    background-color: aqua;
+    padding:300px 380px;
+    border-radius:20px;
+ }
+.text-small {
+    font-size: small;
+}
+.set{
+    font-size:13px;
+    font-weight:bold;
+    text-align: center;
+}
